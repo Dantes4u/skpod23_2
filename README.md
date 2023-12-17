@@ -11,7 +11,9 @@ videos - графики аналитической функции, числен�
 #### Компиляция mympi.cpp
 `
 module load SpectrumMPI
+
 module load OpenMPI
+
 mpixlC -o mpi mympi.cpp -qsmp=omp
 `
 #### Компиляция main.cpp
