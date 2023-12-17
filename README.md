@@ -12,9 +12,11 @@ videos - графики аналитической функции, числен�
 `
 module load SpectrumMPI
 `
+
 `
 module load OpenMPI
 `
+
 `
 mpixlC -o mpi mympi.cpp -qsmp=omp
 `
